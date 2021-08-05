@@ -1,0 +1,8 @@
+[package]
+name = "bug-reproducer"
+version = "0.0.1"
+edition = "2018"
+
+[dependencies]
+windows = { version="0.18.0" , features = ["raw_dylib"] }
+bindings = { path = "bindings" }
