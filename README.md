@@ -1,4 +1,4 @@
-# How to reproduce the bug
+# Environment
 ```
 >rustc --version --verbose
 rustc 1.56.0-nightly (4e282795d 2021-07-31)
@@ -10,7 +10,7 @@ release: 1.56.0-nightly
 LLVM version: 12.0.1
 ```
 
-
+# How to reproduce the bug
 ```
 git clone https://github.com/ryu-s/rustc-bug.git
 cd rustc-bug
